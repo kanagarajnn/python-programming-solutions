@@ -59,13 +59,8 @@
 **License**
   - This project is licensed under the MIT License. See the LICENSE file for details.
 
-
-**Author:** Kanagaraj N N
-**Email:** n.n.kanagaraj.upm@gmail.com
-**GitHub:** https://github.com/kanagarajnn
-
-Contributions Welcome!
-Want to improve this project? Feel free to submit pull requests or report issues.
-
-Happy Programming!
+**Meta Data**
+  - Author: Kanagaraj N N
+  - Email: n.n.kanagaraj.upm@gmail.com
+  - GitHub: https://github.com/kanagarajnn
 
