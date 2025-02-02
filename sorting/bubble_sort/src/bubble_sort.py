@@ -3,7 +3,7 @@
 # Time: Worst - O(N^2), Avg - O(N^2), Best - O(N)
 # Space: O(1)
 
-def bubbleSort(array):
+def bubble_sort(array):
     is_sorted = False
     counter = 0
 
