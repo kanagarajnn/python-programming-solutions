@@ -2,8 +2,10 @@
 bubble_sort.py - Implementation of the Bubble Sort Algorithm in Python
 
 Description:
-- This script contains an implementation of the Bubble Sort algorithm in Python.
-- Bubble Sort is a simple comparison-based sorting algorithm.
+- This module implements the Bubble Sort algorithm in Python.
+- Bubble Sort is a simple comparison-based sorting algorithm that repeatedly steps
+  through the list, swaps adjacent elements if they are in the wrong order,
+  and moves the largest element to the end in each iteration.
 
 Time Complexity:
 - Worst Case: O(N^2) (When the array is reverse sorted)
@@ -13,10 +15,17 @@ Time Complexity:
 Space Complexity:
 - O(1) (In-place sorting algorithm)
 
-Author: Kanagaraj N N
-Date: February 1, 2025
-Version: 1.0
-License: MIT
+Usage:
+- Import in another script: 
+    `from bubble_sort import bubble_sort`
+- Run as standalone script: 
+    `python bubble_sort.py`
+
+Metadata:
+- Author: Kanagaraj N N
+- Date: February 1, 2025
+- Version: 1.0
+- License: MIT (see LICENSE file for details)
 """
 
 
@@ -28,7 +37,7 @@ def bubble_sort(array: List[int]) -> List[int]:
     Sorts an array using the Bubble Sort algorithm.
 
     Args:
-        arr (List[int]): List of integers to be sorted.
+        array (List[int]): List of integers to be sorted.
 
     Returns:
         List[int]: Sorted list in ascending order.
@@ -66,6 +75,7 @@ if __name__ == "__main__":
         [42]
     ]
 
+    print("Testing Bubble Sort:")
     for case in test_cases:
         print(f"Original: {case}")
         # Use case[:] to avoid modifying original

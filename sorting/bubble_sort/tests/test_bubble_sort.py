@@ -6,10 +6,21 @@ Description:
 - The tests cover various edge cases, including already sorted arrays, reverse-sorted arrays,
   negative numbers, single-element arrays, empty arrays, and arrays with duplicates.
 
-Author: Kanagaraj N N
-Date: February 1, 2025
-Version: 1.0
-License: MIT
+Usage:
+- Run all tests using Python's unittest framework:
+    `python -m unittest test_bubble_sort.py`
+- Run all tests in verbose mode (for detailed output):
+    `python -m unittest -v test_bubble_sort.py`
+- Discover and run all tests in the directory:
+    `python -m unittest discover -s tests`
+- Run a specific test case:
+    `python -m unittest test_bubble_sort.TestBubbleSort.test_duplicates`
+   
+Metadata:
+- Author: Kanagaraj N N
+- Date: February 1, 2025
+- Version: 1.0
+- License: MIT (see LICENSE file for details)
 """
 
 import unittest
