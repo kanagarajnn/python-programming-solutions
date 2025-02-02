@@ -22,41 +22,24 @@
 **Space Complexity:** 
   - O(1) (In-place sorting)
 
-**Project Structure:**
-    python-programming-solutions/
-    │── sorting/
-    │   │── bubble_sort/
-    │   │   ├── src/
-    │   │   │   ├── __init__.py
-    │   │   │   ├── bubble_sort.py
-    │   │   ├── tests/
-    │   │   │   ├── __init__.py
-    │   │   │   ├── test_bubble_sort.py
-    │   │   ├── README.md
-    │── .github/
-    │   │── workflows/
-    │   │   ├── ci.yml  # GitHub Actions for CI/CD
-    │── README.md
-    │── LICENSE
-
 **Installation & Usage:**
   - Clone the repository
-      - # git clone https://github.com/kanagarajnn/python-programming-solutions.git
-      - # cd python-programming-solutions
+      - $ git clone https://github.com/kanagarajnn/python-programming-solutions.git`
+      - $ cd python-programming-solutions
   - Run Bubble Sort as a standalone script
-      - # python sorting/bubble_sort/src/bubble_sort.py
+      - $ python sorting/bubble_sort/src/bubble_sort.py
   - Import and use in another script
-      - # from sorting.bubble_sort.src.bubble_sort import bubble_sort
-      - # array = [64, 34, 25, 12, 22, 11, 90]
-      - # sorted_array = bubble_sort(array)
-      - # print(sorted_array)  # Output: [11, 12, 22, 25, 34, 64, 90]
+      - $ from sorting.bubble_sort.src.bubble_sort import bubble_sort
+      - $ array = [64, 34, 25, 12, 22, 11, 90]
+      - $ sorted_array = bubble_sort(array)
+      - $ print(sorted_array)  # Output: [11, 12, 22, 25, 34, 64, 90]
 
 **Running Unit Tests:**
   - Unit tests are included to validate the correctness of the implementation.
   - Run all tests
-      - # python -m unittest discover -s sorting/bubble_sort/tests -v
+      - $ python -m unittest discover -s sorting/bubble_sort/tests -v
   - Run a specific test case
-      - # python -m unittest sorting.bubble_sort.tests.test_bubble_sort.TestBubbleSort.test_unsorted
+      - $ python -m unittest sorting.bubble_sort.tests.test_bubble_sort.TestBubbleSort.test_unsorted
 
 **Continuous Integration (CI) with GitHub Actions**
   - This project is configured with GitHub Actions for automated testing.
@@ -68,7 +51,7 @@
 
   - How to Check CI/CD Status
       - Push your changes:
-        # git push origin main
+        $ git push origin main
       - Navigate to your GitHub repository → Actions tab.
       - Check the workflow Python CI to view test results.
 
