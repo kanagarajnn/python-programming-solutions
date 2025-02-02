@@ -25,7 +25,7 @@
 
 **Installation & Usage:**
   - Clone the repository
-      - $ git clone https://github.com/kanagarajnn/python-programming-solutions.git`
+      - $ git clone https://github.com/kanagarajnn/python-programming-solutions.git
       - $ cd python-programming-solutions
   - Run Bubble Sort as a standalone script
       - $ python sorting/bubble_sort/src/bubble_sort.py
@@ -60,10 +60,9 @@
   - This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-=======================================
 **Author:** Kanagaraj N N
 **Email:** n.n.kanagaraj.upm@gmail.com
-**GitHub:** kanagarajnn
+**GitHub:** https://github.com/kanagarajnn
 
 Contributions Welcome!
 Want to improve this project? Feel free to submit pull requests or report issues.
