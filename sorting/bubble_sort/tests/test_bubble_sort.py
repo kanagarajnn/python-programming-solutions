@@ -24,7 +24,7 @@ Metadata:
 """
 
 import unittest
-from src.bubble_sort import bubble_sort
+from sorting.bubble_sort.src.bubble_sort import bubble_sort
 
 
 class TestBubbleSort(unittest.TestCase):
