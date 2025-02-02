@@ -75,7 +75,7 @@ if __name__ == "__main__":
         [42]
     ]
 
-    print("Testing Bubble Sort:")
+    print("Testing Bubble Sort Algorithm:")
     for case in test_cases:
         print(f"Original: {case}")
         # Use case[:] to avoid modifying original
