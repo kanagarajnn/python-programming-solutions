@@ -1,4 +1,5 @@
 **Bubble Sort Algorithm in Python**
+==================================
 
 **Description:**
   - This repository contains an implementation of the Bubble Sort Algorithm in Python, along with comprehensive unit tests using the unittest framework.
@@ -59,12 +60,13 @@
   - This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-👤 Author: Kanagaraj N N
-📧 Email: n.n.kanagaraj.upm@gmail.com
-🔗 GitHub: kanagarajnn
+=======================================
+**Author:** Kanagaraj N N
+**Email:** n.n.kanagaraj.upm@gmail.com
+**GitHub:** kanagarajnn
 
-✅ Contributions Welcome!
+Contributions Welcome!
 Want to improve this project? Feel free to submit pull requests or report issues.
 
-Happy Programming! 🚀
+Happy Programming!
 
