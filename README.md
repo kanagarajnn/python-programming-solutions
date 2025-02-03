@@ -3,3 +3,6 @@
 
 # python-programming-solutions
 python-programming-solutions is a collection of Python solutions for algorithms, data structures, coding challenges, and interview problems. Optimized for readability, efficiency, and best practices.
+
+# Bubble Sort Documentation
+see documentation [here](sorting/bubble_sort/README.md)
