@@ -1,3 +1,5 @@
+![Python CI](https://github.com/kanagarajnn/python-programming-solutions/actions/workflows/ci.yml/badge.svg)
+
 # Bubble Sort Algorithm in Python
 
 ## Description
