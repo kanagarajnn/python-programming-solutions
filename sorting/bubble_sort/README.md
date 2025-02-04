@@ -24,6 +24,19 @@
 ## Space Complexity 
 - O(1) (In-place sorting)
 
+## Directory Structure
+```
+python-programming-solutions/
+  ├── sorting/
+  │   ├── bubble-sort/
+  │   │   ├── src/
+  │   │   │   ├── bubble_sort.py
+  │   │   ├── tests/
+  │   │   │   ├── test_bubble_sort.py
+  ├── LICENSE
+  ├── README.md
+```
+
 ## Installation & Usage
 ### 1. Clone the repository
 ```sh
