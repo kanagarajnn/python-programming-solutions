@@ -55,13 +55,27 @@ def bubble_sort(array: List[int]) -> List[int]:
         # Perform a pass through the array
         for i in range(n - 1 - pass_counter):
             if array[i] > array[i + 1]:
-                array[i], array[i + 1] = array[i +
-                                               1], array[i]  # Swap elements
+                swap(array, i, i + 1)  # Swap elements
                 is_sorted = False  # Mark that swapping occurred
 
         pass_counter += 1  # Increment counter after each pass
 
     return array
+
+
+def swap(array: List[int], a: int, b: int) -> None:
+    """
+    Swaps two elements in a given list.
+
+    Args:
+        array (List[int]): The list in which elements will be swapped.
+        a (int): The index of the first element.
+        b (int): The index of the second element.
+
+    Returns:
+        None: This function modifies the list in place and does not return anything.
+    """
+    array[a], array[b] = array[b], array[a]
 
 
 # Example Usage & Testing
