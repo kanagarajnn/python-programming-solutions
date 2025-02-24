@@ -40,22 +40,22 @@ python-programming-solutions/
 ## Installation & Usage
 ### 1. Clone the repository
 ```sh
-$ git clone https://github.com/kanagarajnn/python-programming-solutions.git
-$ cd python-programming-solutions/sorting/bubble_sort
+git clone https://github.com/kanagarajnn/python-programming-solutions.git
+cd python-programming-solutions
 ```
 
 ### 2. Run Bubble Sort as a standalone script
 ```sh
-$ python sorting/bubble_sort/src/bubble_sort.py
+python sorting/bubble_sort/src/bubble_sort.py
 ```
 
 ### 3. Import and use in another script
 You can include bubble_sort module in another project or file:
 ```sh
-$ from sorting.bubble_sort.src.bubble_sort import bubble_sort
-$ array = [64, 34, 25, 12, 22, 11, 90]
-$ sorted_array = bubble_sort(array)
-$ print(sorted_array)  # Output: [11, 12, 22, 25, 34, 64, 90]
+from sorting.bubble_sort.src.bubble_sort import bubble_sort
+array = [64, 34, 25, 12, 22, 11, 90]
+sorted_array = bubble_sort(array)
+print(sorted_array)  # Output: [11, 12, 22, 25, 34, 64, 90]
 ```
 
 ## Running Unit Tests
@@ -63,12 +63,12 @@ $ print(sorted_array)  # Output: [11, 12, 22, 25, 34, 64, 90]
 
 ### 1. Run Tests
 ```sh
-$ python -m unittest discover -s tests -v
+python -m unittest discover -s sorting/bubble_sort/tests -v
 ```
 
 ### 2. Run a Specific Test Case (Optional)
 ```sh
-$ python -m unittest sorting.bubble_sort.tests.test_bubble_sort.TestBubbleSort.test_unsorted
+python -m unittest sorting.bubble_sort.tests.test_bubble_sort.TestBubbleSort.test_unsorted
 ```
 
 ## Continuous Integration (CI) with GitHub Actions
@@ -82,7 +82,7 @@ This project is configured with GitHub Actions for automated testing.
 ## How to Check CI/CD Status:
 - Push your changes:
 ```sh
-$ git push origin main
+git push origin main
 ```
 - Navigate to your GitHub repository → Actions tab.
 - Check the workflow CUnit CI to view test results.
